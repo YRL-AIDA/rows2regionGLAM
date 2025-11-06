@@ -1,7 +1,4 @@
 
-DEVICE='cpu'
-PATH_MODELS='/home/daniil/project/PageR/models/'
-JAR_PDF_PARSER='/home/daniil/project/PageR/models/PDF2Block/precisionPDF.jar'
 DATASER_PATH='/home/daniil/dataset/PubLayNet/micro_publaynet_1k/pdfs/train'
 TEST_PATH='/home/daniil/dataset/PubLayNet/micro_publaynet_1k/pdfs/dev'
 TEST_COCO_PATH='/home/daniil/dataset/PubLayNet/micro_publaynet_1k/publaynet/val.json'
