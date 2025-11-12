@@ -757,3 +757,409 @@ EPOCH #17	 0.39847853 (VAL: 0.41262609)
 EPOCH #18	 0.39530320 (VAL: 0.41254476)
 EPOCH #19	 0.39518115 (VAL: 0.41330878)
 Время обучения: 672.29 сек
+JSON ERROR FILES:
+PMC3866684_00011.pdf.json
+PMC3866684_00015.pdf.json
+PMC3866684_00018.pdf.json
+PMC4482042_00003.pdf.json
+PMC4700086_00006.pdf.json
+PMC4786597_00006.pdf.json
+PMC4786597_00012.pdf.json
+PMC4786597_00014.pdf.json
+PMC5006490_00006.pdf.json
+PMC5020480_00002.pdf.json
+PMC5500685_00004.pdf.json
+PMC5908827_00004.pdf.json
+PMC5993141_00005.pdf.json
+PMC5993142_00012.pdf.json
+2025-11-11 17:48:33.300198
+DATASET INFO:
+count row: 986
+first: dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([79, 79])
+	 nodes_feature:torch.Size([79, 15])
+	 edges_feature:torch.Size([107, 4])
+	 true_edges:torch.Size([107])
+end:dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([112, 112])
+	 nodes_feature:torch.Size([112, 15])
+	 edges_feature:torch.Size([156, 4])
+	 true_edges:torch.Size([156])
+
+node_featch:	15
+edge_featch:	4
+epochs:	20
+batch_size:	50
+learning_rate:	0.05
+Tag:	[{'in': -1, 'size': 128, 'out': 64, 'k': 3}, {'in': 64, 'size': 64, 'out': 32, 'k': 2}, {'in': 32, 'size': 32, 'out': 16, 'k': 1}]
+NodeLinear:	[-1, 16]
+NodeLinearClassifier:	[8]
+EdgeLinear:	[32, 8]
+NodeClasses:	5
+batchNormNode:	True
+batchNormEdge:	True
+seg_k:	0.5
+loss_params:	{'publaynet_imbalance': [0.008, 0.211, 0.381, 0.092, 0.303], 'edge_imbalance': 1.77, 'edge_coef': 1, 'node_coef': 0.25}
+sigmoidEdge:	False
+2025-11-11 17:49:24.050429
+DATASET INFO:
+count row: 986
+first: dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([79, 79])
+	 nodes_feature:torch.Size([79, 15])
+	 edges_feature:torch.Size([107, 4])
+	 true_edges:torch.Size([107])
+end:dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([112, 112])
+	 nodes_feature:torch.Size([112, 15])
+	 edges_feature:torch.Size([156, 4])
+	 true_edges:torch.Size([156])
+
+node_featch:	15
+edge_featch:	4
+epochs:	20
+batch_size:	50
+learning_rate:	0.05
+Tag:	[{'in': -1, 'size': 128, 'out': 64, 'k': 3}, {'in': 64, 'size': 64, 'out': 32, 'k': 2}, {'in': 32, 'size': 32, 'out': 16, 'k': 1}]
+NodeLinear:	[-1, 16]
+NodeLinearClassifier:	[8]
+EdgeLinear:	[32, 8]
+NodeClasses:	5
+batchNormNode:	True
+batchNormEdge:	True
+seg_k:	0.5
+loss_params:	{'publaynet_imbalance': [0.008, 0.211, 0.381, 0.092, 0.303], 'edge_imbalance': 1.77, 'edge_coef': 1, 'node_coef': 0.25}
+sigmoidEdge:	False
+EPOCH #0	 0.62480096 (VAL: 0.45827724)
+EPOCH #1	 0.47982831 (VAL: 0.43830634)
+EPOCH #2	 0.44423615 (VAL: 0.39645073)
+EPOCH #3	 0.41643635 (VAL: 0.38063202)
+EPOCH #4	 0.39624150 (VAL: 0.37401849)
+EPOCH #5	 0.38484001 (VAL: 0.37116558)
+EPOCH #6	 0.37862147 (VAL: 0.35877787)
+EPOCH #7	 0.36889198 (VAL: 0.35036915)
+EPOCH #8	 0.35637063 (VAL: 0.34876417)
+EPOCH #9	 0.34900327 (VAL: 0.34967172)
+EPOCH #10	 0.34815332 (VAL: 0.35259649)
+EPOCH #11	 0.34738477 (VAL: 0.34315335)
+EPOCH #12	 0.34757994 (VAL: 0.34513357)
+EPOCH #13	 0.34238553 (VAL: 0.34109237)
+EPOCH #14	 0.33729848 (VAL: 0.34422976)
+EPOCH #15	 0.33502277 (VAL: 0.33876514)
+EPOCH #16	 0.33350687 (VAL: 0.33427423)
+EPOCH #17	 0.32858777 (VAL: 0.34577498)
+EPOCH #18	 0.32293112 (VAL: 0.33749354)
+EPOCH #19	 0.32367194 (VAL: 0.34389667)
+Время обучения: 63.53 сек
+2025-11-11 19:10:14.787200
+DATASET INFO:
+count row: 1000
+first: dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([145, 145])
+	 nodes_feature:torch.Size([145, 15])
+	 edges_feature:torch.Size([236, 4])
+	 true_edges:torch.Size([236])
+end:dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([219, 219])
+	 nodes_feature:torch.Size([219, 15])
+	 edges_feature:torch.Size([369, 4])
+	 true_edges:torch.Size([369])
+
+node_featch:	15
+edge_featch:	4
+epochs:	20
+batch_size:	50
+learning_rate:	0.05
+Tag:	[{'in': -1, 'size': 128, 'out': 64, 'k': 3}, {'in': 64, 'size': 64, 'out': 32, 'k': 2}, {'in': 32, 'size': 32, 'out': 16, 'k': 1}]
+NodeLinear:	[-1, 16]
+NodeLinearClassifier:	[8]
+EdgeLinear:	[32, 8]
+NodeClasses:	5
+batchNormNode:	True
+batchNormEdge:	True
+seg_k:	0.5
+loss_params:	{'publaynet_imbalance': [0.003, 0.26, 0.502, 0.112, 0.122], 'edge_imbalance': 0.3, 'edge_coef': 1, 'node_coef': 0.25}
+sigmoidEdge:	False
+EPOCH #0	 0.30022055 (VAL: 0.25675303)
+EPOCH #1	 0.23003493 (VAL: 0.21778831)
+EPOCH #2	 0.21354555 (VAL: 0.20788060)
+EPOCH #3	 0.20391201 (VAL: 0.19974142)
+EPOCH #4	 0.19525387 (VAL: 0.20140635)
+EPOCH #5	 0.19200938 (VAL: 0.19560665)
+EPOCH #6	 0.19032744 (VAL: 0.19947277)
+EPOCH #7	 0.18998124 (VAL: 0.19800227)
+EPOCH #8	 0.18681404 (VAL: 0.19594060)
+EPOCH #9	 0.17981565 (VAL: 0.19394976)
+EPOCH #10	 0.17860199 (VAL: 0.18894941)
+EPOCH #11	 0.18007593 (VAL: 0.18952495)
+EPOCH #12	 0.17436420 (VAL: 0.18683073)
+EPOCH #13	 0.17107554 (VAL: 0.18728163)
+EPOCH #14	 0.16858998 (VAL: 0.18674336)
+EPOCH #15	 0.16621860 (VAL: 0.18620881)
+EPOCH #16	 0.16559066 (VAL: 0.18670994)
+EPOCH #17	 0.16863742 (VAL: 0.19437834)
+EPOCH #18	 0.17029666 (VAL: 0.18620590)
+EPOCH #19	 0.16598738 (VAL: 0.18988847)
+Время обучения: 156.25 сек
+JSON ERROR FILES:
+PMC3866684_00011.pdf.json
+PMC4482042_00003.pdf.json
+PMC4700086_00006.pdf.json
+PMC4786597_00006.pdf.json
+PMC4786597_00012.pdf.json
+PMC4786597_00014.pdf.json
+PMC5006490_00006.pdf.json
+PMC5020480_00002.pdf.json
+PMC5500685_00004.pdf.json
+PMC5908827_00004.pdf.json
+PMC5993141_00005.pdf.json
+PMC5993142_00012.pdf.json
+2025-11-12 14:41:29.796507
+DATASET INFO:
+count row: 988
+first: dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([80, 80])
+	 nodes_feature:torch.Size([80, 15])
+	 edges_feature:torch.Size([109, 4])
+	 true_edges:torch.Size([109])
+end:dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([112, 112])
+	 nodes_feature:torch.Size([112, 15])
+	 edges_feature:torch.Size([156, 4])
+	 true_edges:torch.Size([156])
+
+node_featch:	15
+edge_featch:	4
+epochs:	20
+batch_size:	50
+learning_rate:	0.05
+Tag:	[{'in': -1, 'size': 128, 'out': 64, 'k': 3}, {'in': 64, 'size': 64, 'out': 32, 'k': 2}, {'in': 32, 'size': 32, 'out': 16, 'k': 1}]
+NodeLinear:	[-1, 16]
+NodeLinearClassifier:	[8]
+EdgeLinear:	[32, 8]
+NodeClasses:	5
+batchNormNode:	True
+batchNormEdge:	True
+seg_k:	0.5
+loss_params:	{'publaynet_imbalance': [0.00838571, 0.21928966, 0.39543962, 0.09563623, 0.28124875], 'edge_imbalance': 1.77, 'edge_coef': 1, 'node_coef': 0.25}
+sigmoidEdge:	False
+EPOCH #0	 0.65245346 (VAL: 0.55141714)
+EPOCH #1	 0.50929058 (VAL: 0.48332972)
+EPOCH #2	 0.44264355 (VAL: 0.47212634)
+EPOCH #3	 0.41159564 (VAL: 0.47408602)
+EPOCH #4	 0.39073086 (VAL: 0.45550699)
+EPOCH #5	 0.37313308 (VAL: 0.46046498)
+EPOCH #6	 0.36033339 (VAL: 0.45697534)
+EPOCH #7	 0.35089394 (VAL: 0.44239431)
+EPOCH #8	 0.34510812 (VAL: 0.45762341)
+EPOCH #9	 0.34084719 (VAL: 0.45330115)
+EPOCH #10	 0.33472015 (VAL: 0.46104199)
+EPOCH #11	 0.33398432 (VAL: 0.45472092)
+EPOCH #12	 0.32948114 (VAL: 0.43909992)
+EPOCH #13	 0.32589395 (VAL: 0.43812300)
+EPOCH #14	 0.32371777 (VAL: 0.43010155)
+EPOCH #15	 0.32156311 (VAL: 0.45149380)
+EPOCH #16	 0.31545605 (VAL: 0.45659523)
+EPOCH #17	 0.31647603 (VAL: 0.48089087)
+EPOCH #18	 0.31743107 (VAL: 0.43854879)
+EPOCH #19	 0.30899370 (VAL: 0.44549994)
+Время обучения: 65.75 сек
+JSON ERROR FILES:
+PMC3866684_00011.pdf.json
+PMC4482042_00003.pdf.json
+PMC4700086_00006.pdf.json
+PMC4786597_00006.pdf.json
+PMC4786597_00012.pdf.json
+PMC4786597_00014.pdf.json
+PMC5006490_00006.pdf.json
+PMC5020480_00002.pdf.json
+PMC5500685_00004.pdf.json
+PMC5908827_00004.pdf.json
+PMC5993141_00005.pdf.json
+PMC5993142_00012.pdf.json
+2025-11-12 15:24:38.829755
+DATASET INFO:
+count row: 987
+first: dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([80, 80])
+	 nodes_feature:torch.Size([80, 15])
+	 edges_feature:torch.Size([109, 4])
+	 true_edges:torch.Size([109])
+end:dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([112, 112])
+	 nodes_feature:torch.Size([112, 15])
+	 edges_feature:torch.Size([156, 4])
+	 true_edges:torch.Size([156])
+
+node_featch:	15
+edge_featch:	4
+epochs:	20
+batch_size:	50
+learning_rate:	0.05
+Tag:	[{'in': -1, 'size': 128, 'out': 64, 'k': 3}, {'in': 64, 'size': 64, 'out': 32, 'k': 2}, {'in': 32, 'size': 32, 'out': 16, 'k': 1}]
+NodeLinear:	[-1, 16]
+NodeLinearClassifier:	[8]
+EdgeLinear:	[32, 8]
+NodeClasses:	5
+batchNormNode:	True
+batchNormEdge:	True
+seg_k:	0.5
+loss_params:	{'publaynet_imbalance': array([0.00824053, 0.21679625, 0.39044785, 0.09475799, 0.2897573 ],
+      dtype=float32), 'edge_imbalance': np.float32(1.7202386), 'edge_coef': 1, 'node_coef': 0.25}
+sigmoidEdge:	False
+EPOCH #0	 0.62941379 (VAL: 0.57027377)
+EPOCH #1	 0.49836482 (VAL: 0.48413758)
+EPOCH #2	 0.45166359 (VAL: 0.43447243)
+EPOCH #3	 0.42398512 (VAL: 0.41690208)
+EPOCH #4	 0.40401730 (VAL: 0.41201378)
+EPOCH #5	 0.39091774 (VAL: 0.40297736)
+EPOCH #6	 0.38151335 (VAL: 0.39837550)
+EPOCH #7	 0.36909797 (VAL: 0.39413063)
+EPOCH #8	 0.36154883 (VAL: 0.39128527)
+EPOCH #9	 0.36272420 (VAL: 0.37974498)
+EPOCH #10	 0.35779540 (VAL: 0.38794183)
+EPOCH #11	 0.34654786 (VAL: 0.38027940)
+EPOCH #12	 0.34352841 (VAL: 0.38106499)
+EPOCH #13	 0.34349191 (VAL: 0.38718426)
+EPOCH #14	 0.33866060 (VAL: 0.36161703)
+EPOCH #15	 0.33397343 (VAL: 0.37968745)
+EPOCH #16	 0.33180204 (VAL: 0.38372720)
+EPOCH #17	 0.32888530 (VAL: 0.38338132)
+EPOCH #18	 0.32443799 (VAL: 0.37112518)
+EPOCH #19	 0.32034457 (VAL: 0.38511486)
+Время обучения: 62.87 сек
+2025-11-12 16:48:40.499122
+DATASET INFO:
+count row: 979
+first: dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([16, 16])
+	 nodes_feature:torch.Size([16, 15])
+	 edges_feature:torch.Size([13, 4])
+	 true_edges:torch.Size([13])
+end:dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([98, 98])
+	 nodes_feature:torch.Size([98, 15])
+	 edges_feature:torch.Size([144, 4])
+	 true_edges:torch.Size([144])
+
+node_featch:	15
+edge_featch:	4
+epochs:	20
+batch_size:	50
+learning_rate:	0.05
+Tag:	[{'in': -1, 'size': 128, 'out': 64, 'k': 3}, {'in': 64, 'size': 64, 'out': 32, 'k': 2}, {'in': 32, 'size': 32, 'out': 16, 'k': 1}]
+NodeLinear:	[-1, 16]
+NodeLinearClassifier:	[8]
+EdgeLinear:	[32, 8]
+batchNormNode:	True
+batchNormEdge:	True
+seg_k:	0.5
+loss_params:	{'edge_coef': 1, 'node_coef': 0.25, 'publaynet_imbalance': [0.0, 0.05156397074460983, 0.6074932217597961, 0.0354841910302639, 0.01963639073073864, 0.0, 0.07000552862882614, 0.02412188984453678, 0.030586915090680122, 0.006990702357143164, 0.004785096738487482, 0.14933224022388458], 'edge_imbalance': 1.615318197978567}
+sigmoidEdge:	False
+NodeClasses:	11
+EPOCH #0	 nan (VAL: nan)
+EPOCH #1	 nan (VAL: nan)
+EPOCH #2	 nan (VAL: nan)
+EPOCH #3	 nan (VAL: nan)
+EPOCH #4	 nan (VAL: nan)
+EPOCH #5	 nan (VAL: nan)
+2025-11-12 16:49:31.940748
+DATASET INFO:
+count row: 979
+first: dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([16, 16])
+	 nodes_feature:torch.Size([16, 15])
+	 edges_feature:torch.Size([13, 4])
+	 true_edges:torch.Size([13])
+end:dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([98, 98])
+	 nodes_feature:torch.Size([98, 15])
+	 edges_feature:torch.Size([144, 4])
+	 true_edges:torch.Size([144])
+
+node_featch:	15
+edge_featch:	4
+epochs:	20
+batch_size:	50
+learning_rate:	0.05
+Tag:	[{'in': 15, 'size': 128, 'out': 64, 'k': 3}, {'in': 64, 'size': 64, 'out': 32, 'k': 2}, {'in': 32, 'size': 32, 'out': 16, 'k': 1}]
+NodeLinear:	[31, 16]
+NodeLinearClassifier:	[8]
+EdgeLinear:	[32, 8]
+batchNormNode:	True
+batchNormEdge:	True
+seg_k:	0.5
+loss_params:	{'edge_coef': 1, 'node_coef': 0.25, 'publaynet_imbalance': [0.0, 0.05156397074460983, 0.6074932217597961, 0.0354841910302639, 0.01963639073073864, 0.0, 0.07000552862882614, 0.02412188984453678, 0.030586915090680122, 0.006990702357143164, 0.004785096738487482, 0.14933224022388458], 'edge_imbalance': 1.615318197978567}
+sigmoidEdge:	False
+NodeClasses:	12
+EPOCH #0	 0.94568714 (VAL: 0.92198107)
+EPOCH #1	 0.92375760 (VAL: 0.91931628)
+EPOCH #2	 0.91077608 (VAL: 0.91220029)
+EPOCH #3	 0.89666372 (VAL: 0.90008895)
+EPOCH #4	 0.88774104 (VAL: 0.90932867)
+EPOCH #5	 0.88403470 (VAL: 0.89698735)
+EPOCH #6	 0.88012972 (VAL: 0.90112043)
+EPOCH #7	 0.87838548 (VAL: 0.90501618)
+EPOCH #8	 0.87054623 (VAL: 0.90757993)
+EPOCH #9	 0.87021397 (VAL: 0.89829257)
+EPOCH #10	 0.86669791 (VAL: 0.90167801)
+EPOCH #11	 0.86404405 (VAL: 0.90837987)
+EPOCH #12	 0.86514030 (VAL: 0.90566472)
+EPOCH #13	 0.86345409 (VAL: 0.90749059)
+EPOCH #14	 0.86045616 (VAL: 0.91000354)
+EPOCH #15	 0.85489655 (VAL: 0.91688325)
+EPOCH #16	 0.85455994 (VAL: 0.90867977)
+EPOCH #17	 0.85373873 (VAL: 0.89994377)
+EPOCH #18	 0.84946715 (VAL: 0.90708538)
+EPOCH #19	 0.85021706 (VAL: 0.90913494)
+Время обучения: 52.61 сек
+2025-11-12 17:10:00.284955
+DATASET INFO:
+count row: 979
+first: dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([16, 16])
+	 nodes_feature:torch.Size([16, 15])
+	 edges_feature:torch.Size([13, 4])
+	 true_edges:torch.Size([13])
+end:dict_keys(['N', 'X', 'Y', 'inds', 'true_edges', 'true_nodes', 'sp_A'])
+	 A:torch.Size([98, 98])
+	 nodes_feature:torch.Size([98, 15])
+	 edges_feature:torch.Size([144, 4])
+	 true_edges:torch.Size([144])
+
+node_featch:	15
+edge_featch:	4
+epochs:	20
+batch_size:	50
+learning_rate:	0.05
+Tag:	[{'in': -1, 'size': 128, 'out': 64, 'k': 3}, {'in': 64, 'size': 64, 'out': 32, 'k': 2}, {'in': 32, 'size': 32, 'out': 16, 'k': 1}]
+NodeLinear:	[-1, 16]
+NodeLinearClassifier:	[8]
+EdgeLinear:	[32, 8]
+batchNormNode:	True
+batchNormEdge:	True
+seg_k:	0.5
+loss_params:	{'edge_coef': 1, 'node_coef': 0.25, 'publaynet_imbalance': [0.0, 0.08508206903934479, 0.24166376888751984, 0.04288865253329277, 0.03053778037428856, 0.08508206903934479, 0.09981968253850937, 0.052520617842674255, 0.054047275334596634, 0.02633526362478733, 0.006793065927922726, 0.27522972226142883], 'edge_imbalance': 1.6694142042509073}
+sigmoidEdge:	False
+NodeClasses:	12
+EPOCH #0	 0.74852576 (VAL: 0.68879976)
+EPOCH #1	 0.60851751 (VAL: 0.63505844)
+EPOCH #2	 0.57156119 (VAL: 0.56889289)
+EPOCH #3	 0.54715541 (VAL: 0.54002029)
+EPOCH #4	 0.52451942 (VAL: 0.52873962)
+EPOCH #5	 0.50989903 (VAL: 0.52664680)
+EPOCH #6	 0.49809292 (VAL: 0.51913237)
+EPOCH #7	 0.48723600 (VAL: 0.49528192)
+EPOCH #8	 0.48471965 (VAL: 0.50458849)
+EPOCH #9	 0.47299963 (VAL: 0.50477497)
+EPOCH #10	 0.46875948 (VAL: 0.50891002)
+EPOCH #11	 0.46178032 (VAL: 0.52082951)
+EPOCH #12	 0.45191375 (VAL: 0.55466038)
+EPOCH #13	 0.44742040 (VAL: 0.54175824)
+EPOCH #14	 0.43652072 (VAL: 0.54434498)
+EPOCH #15	 0.42986631 (VAL: 0.57308917)
+EPOCH #16	 0.42658005 (VAL: 0.56035765)
+EPOCH #17	 0.42426450 (VAL: 0.55703557)
+EPOCH #18	 0.42306359 (VAL: 0.56143949)
+EPOCH #19	 0.42344247 (VAL: 0.55572217)
+Время обучения: 52.31 сек
